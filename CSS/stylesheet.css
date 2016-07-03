@@ -1,0 +1,57 @@
+/*Fonts & Text */
+@font-face {
+    font-family: HACKED;
+    src: url(HACKED.ttf);
+
+}
+
+div {
+font-family: HACKED;
+
+}
+
+p {
+  font-family: HACKED;
+}
+
+h1 {
+  font-family: HACKED;
+
+}
+
+
+/* Background styles*/
+
+#home {
+  background: url(../images/backlight.jpg);
+  background-size: cover;;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+
+}
+
+#home h1 {
+
+  color: white;
+}
+
+#home nav {
+  border: solid grey 1px;
+
+}
+
+#home nav a {
+  color: grey;
+  font-family: "HACKED";
+  text-decoration: none;
+
+
+}
+
+.homepanel {
+	min-height: 100vh;
+  border: none;
+}
+
+/*navigation tool*/
