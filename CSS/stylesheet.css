@@ -22,12 +22,16 @@ h1 {
 
 /* Background styles*/
 
+body {
+  background-color: #000000;
+}
+
 #home {
   background: url(../images/backlight.jpg);
-  background-size: cover;;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: none;
+  background-attachment: fixed;
 
 }
 
@@ -36,8 +40,19 @@ h1 {
   color: white;
 }
 
+.homepanel {
+	min-height: 100vh;
+}
+
+/*navigation tool*/
+
+
 #home nav {
   border: solid grey 1px;
+  list-style-type: none;
+  max-width: 15vh;
+  border-spacing: inherit;
+
 
 }
 
@@ -46,12 +61,28 @@ h1 {
   font-family: "HACKED";
   text-decoration: none;
 
+}
+
+/*About Panel*/
+
+#about {
+  background: url(../images/static.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
-.homepanel {
+#about h1 {
+  color: white;
+
+}
+
+#about p {
+  color: white;
+}
+
+.aboutpanel {
 	min-height: 100vh;
-  border: none;
 }
-
-/*navigation tool*/
