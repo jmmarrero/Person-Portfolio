@@ -123,18 +123,60 @@ div::selection {
 #contactpage h1 {
   color: white;
   font-family: Dropy;
-  font-size: 3em;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 1.5em;
 }
 
 #contactpage p {
   color: white;
   font-family: taylor;
   font-size: 2em;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 1em;
 
+}
+
+#contactpage section {
+
+  padding-top: 15em;
 }
 
 .contactclass {
 
+  min-height: 45em;
+}
+
+/* Portfolio*/
+
+#portfolio {
+    background: url(../images/boat.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+#portfolio h1 {
+  color: white;
+  font-family: Dropy;
+  font-size: 5em;
+  text-align: center;
+}
+
+#portfolio p {
+  color: white;
+  font-family: taylor;
+  font-size: 3em;
+  text-align: center;
+}
+
+#portfolio section {
+  padding-top: 30em;
+}
+
+
+.porthome {
   min-height: 45em;
 }
 
@@ -149,7 +191,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -157,8 +199,8 @@ li a {
     font-size: 3em;
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: right;
+    padding: 14px 2.52em;
     text-decoration: none;
 
 }
